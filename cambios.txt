@@ -1,0 +1,14 @@
+La superposición de algunos centenares de pulsos registrados, da el perfil integrado del pulso, el cual es normalmente estable y característico para cada púlsar. El perfil integrado está constituido por una gran variedad de pulsos individuales, cada uno de los cuales tiene más de una componente: es la distribución estadística de estas componentes sobre un rango de longitudes, combinado con sus característicos anchos de banda y la distribución de probabilidad de sus intensidades lo que determina la forma repetitiva del perfil integrado. Cada candidato consta de una selección de parámetros candidatos, que incluyen el período optimizado y la medida de dispersión (DM) del púlsar, así como la relación señal-ruido (SNR) detectada en varios métodos de búsqueda.
+
+NOMBRES_COLUMNAS = {
+    'Mean of the integrated profile' : 'media del perfil integrado',
+    'Standard deviation of the integrated profile' : 'desviacion estandar del perfil integrado',
+    'Excess kurtosis of the integrated profile' : 'exceso de curtosis del perfil integrado',
+    'Skewness of the integrated profile' : 'sesgo del perfil integrado',
+    'Mean of the DM-SNR curve' : 'media de la curva DM-SNR',
+    'Standard deviation of the DM-SNR curve' : 'desviacion estandar de la curva DM-SNR',
+    'Excess kurtosis of the DM-SNR curve' : 'exceso de curtosis de la curva DM-SNR',
+    'Skewness of the DM-SNR curve' : 'sesgo de la curva DM-SNR',
+    'target_class' : 'target_class',
+}
+data.rename(columns=NOMBRES_COLUMNAS, inplace=True)
